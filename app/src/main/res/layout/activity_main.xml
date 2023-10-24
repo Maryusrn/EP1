@@ -11,9 +11,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello world"
+        android:text="Título"
         android:textColor="@color/teal_700"
-        android:textSize="30sp"
+        android:textSize="40sp"
+        android:layout_marginLeft="150dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtítulo"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp"
+        android:layout_marginLeft="155dp"
         android:textAlignment="center"/>
 
     <LinearLayout
@@ -28,26 +38,63 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello world"
+            android:text="Opción 1"
             android:textColor="@color/teal_700"
-            android:textSize="30sp"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
             android:textAlignment="center"/>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello world"
-            android:textColor="@color/purple_700"
-            android:textSize="30sp"
+            android:text="Opción 2"
+            android:textColor="@color/teal_700"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opción 3"
+            android:textColor="@color/teal_700"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
             android:textAlignment="center"/>
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello world"
-        android:textColor="@color/purple_700"
-        android:textSize="30sp"
-        android:textAlignment="center"/>
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Texto 1"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Texto 2"
+            android:textColor="@color/teal_700"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Texto 3"
+            android:textColor="@color/teal_700"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
 </LinearLayout>
